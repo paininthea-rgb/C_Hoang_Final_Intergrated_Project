@@ -2,7 +2,7 @@
 
 This is my Final Intergrated Project about my photography website
 
-## Sysnopsis
+## Synopsis
 
 ![Lee Studio](index.jpg "Final Intergrated Project")
 

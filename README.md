@@ -8,6 +8,14 @@ This is my Final Intergrated Project about my photography website
 
 ## Author
 
+Ly C Hoang
+
 ## Tools
 
+HTML
+CSS
+Github
+
 ## Copyright
+
+Ly C Hoang 2019

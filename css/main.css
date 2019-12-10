@@ -1,0 +1,309 @@
+html{ 
+  background-color: black;
+}
+body{
+    padding:0px;
+    margin:0px;
+    overflow-x:hidden;
+}
+
+.container{
+    max-width:1080px;
+    margin:0 auto;
+}
+
+.container > header{
+    /*background-image:url('Summoners_Rift.jpg');*/
+    background-size:100% 100%;
+    height:100px;
+    padding-bottom:25%;
+    margin-top: 158px;
+}
+.container > header > div.Title_header{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: "Gill Sans W04", GillSans, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.container > header > div.Title_header > h1 {
+    font-family: Helvetica, sans-serif;
+    color: #ff6600;
+    font-weight: 100;
+    font-size: 50px;    
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), -1px -1px 3px rgba(0, 0, 0, 0.5);
+}
+.container > header > div.Title_header > h2 {
+    color: #fbd989;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 100;    
+}
+
+.container > header > a.bl{
+    position: absolute;
+    background-color: black;
+    padding: 67px;
+    padding-left: 600px;
+    padding-right: 800px;
+    right:0px;
+    border-bottom: 1px solid #333333;
+    top: 0px;
+    left: 0px;
+}
+.container > header > a.lol{
+    position: absolute;
+    top:35px;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    margin: 0px auto;
+}
+.container > header > a.lol > img{
+    width: 200px;
+
+}
+.container > aside{ 
+    min-height:589px;
+    width:25%;
+    float:right;
+    padding: 7px 0px;
+    border-bottom:3px solid white;
+    border-right: 3px solid white;
+}
+.menu>ul>li>a{
+    display:block;
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    background-color:black;
+    text-align:center;
+    line-height: 40px;    
+    border: 1px solid white;
+}
+.menu >ul >li >a{
+    text-decoration:none;
+    font-variant:annotation;
+    font-size:18px;
+    color: #ffff99;
+    padding:5px;
+    line-height:40px;
+}
+.menu > ul > li > a:hover{
+    color:white;
+    box-shadow:0 0 4px white inset;
+    border-radius: 8px;
+    font-size:19px; 
+}
+.menu > ul > li{
+    position:relative;
+    display:inline-block;
+    width: 19%;
+}
+
+.container > article{
+    min-height:507px;
+    width:99.6%;
+    background-color: #cccccc;
+    float:left;
+    border-bottom: 3px solid gray;;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 700px;
+    background-color: black;
+
+}
+
+
+div > h3{
+    color: #ffff99;
+    text-align: center;
+    top: 1175px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding-left: 356px;
+    padding-right: 357px;
+    background-color: rgb(36, 38, 51);
+}
+
+div.Slide{
+    position: relative; 
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    
+    padding: 30px;
+    height: 900px;
+    text-align: center;
+    background-color: rgb(36, 38, 51);
+}
+
+div.Slide div{
+    
+    width:300px;
+    height:170px;
+    float: left;
+    margin-top: 100px;
+    margin-right: 30px; 
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.Slide div a img{
+    width: 100%;
+    border: 1px solid white;
+}
+.Slide div a img:hover{
+box-shadow: 0 0 10px white;
+}
+.pic1{   
+    width: 100%;
+}
+img.top{
+    position: absolute;
+    top: 7px;
+    margin: 0px 0px 0px -30px;
+}
+header > div > a.left{
+    position: absolute;
+    color: white;
+    top: -37px;
+    float: left;
+    left:98px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+}
+header > div > a.left:hover{
+    color: yellow;
+}
+header > div > a.right{
+    position: absolute;
+    color: white;
+    top: -37px;
+    float: right;
+    right:98px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+}
+header > div > a.right:hover{
+    color: yellow;
+}
+
+footer{
+position: relative;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+footer > p{
+    position: relative;
+    padding-top:0px;
+    text-align: center;
+    clear:both;
+    color: white;
+    top:20px;
+}
+
+img.h{
+    position: absolute;
+    margin: 20px 0px 0px 478px;
+    width: 136px;
+
+}
+hr{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    top:-106px;
+}
+/*-- Start Contact Us --*/
+
+#mainContact {
+  width: 1040px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: #2073a8;
+  background-color: lightblue;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 460px;
+  border-right: solid 1px #CCC;
+  margin-bottom: 30px;
+}
+#contactArea {
+    font-family: Arial;
+}
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  width: 340px;
+  
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+input, textarea {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  display: block;
+  border: 1px solid #999;
+  
+}
+
+#comments{
+  width: 360px;
+  height: 200px;
+}
+
+#mapArea {
+  width: 430px;
+  height: 500px;
+  margin-left: 30px;
+  
+}
+.Btn{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #fff;
+  background-color: #61a3c1;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Btn:hover{
+  background-color: lightblue;
+}
+/*-- Close Contact Us --*/

@@ -1,0 +1,188 @@
+.new{
+    max-width: 945px;
+    height: 960px;
+    background: #cccccc;
+    margin: 0 auto;
+    border: 3px double grey;
+    position: relative;
+    margin-top: 170px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.new > h2{
+    padding-left: 10px;
+    color: #333333;
+}
+.new .title1{
+    position: relative;
+    font-size: 10px;
+    padding-left: 10px;
+    color: #666666;
+    top: 50px;
+}
+.new .title2{
+    position: relative;
+    font-size: 10px;
+    padding-left: 10px;
+    color: #666666;
+    top: 30px;
+    left: 433px;
+}
+.new > img.a{
+    position: relative;
+    border: 5px double grey;
+    margin: 10px;
+    width: 63%;
+    height: 40%;
+    top:30px;
+}
+.new  p.content{
+    position: relative;
+    left: 10px;    
+    margin-top: 30px;
+    width:65%;
+    top: 30px;
+}
+.late{
+    position: absolute;
+    bottom: 30px;
+    width: 945px;
+}
+.late > hr{
+    margin-bottom: 40px;
+}
+p.last{
+    position: absolute;
+    font-size: 10px;
+    float: bottom;
+    bottom: 20px
+}
+aside{  
+    position: absolute;
+    float: right;
+    width:28%;
+    height: 390px;
+    margin-left: 650px;
+    bottom: 426px;
+    border:  3px solid grey;  
+}
+aside > .vmenu{
+    position: absolute;
+    list-style: none;
+    padding-left: 5px;
+}
+aside > .vmenu > li > a{
+    color: #006633;
+}
+aside > .vmenu > li > a:hover{
+    color: #009933;
+}
+aside > .vmenu > li{
+    position: relative;
+    padding: 0px 10px 10px 10px;
+    width: 234px;
+}
+.vmenu h1{
+    position: relative;
+    padding-left: 10px;
+    color: #333333;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+html{ 
+  background: url('..images/Summoners_Rift.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+footer{   
+    width: 100%;
+    border-top: 1px solid white;
+    height: 200px;
+}
+div.foot{
+   color: white; 
+   text-align: center;
+}
+img.f{
+    position: absolute;
+    left: 180px;
+    top: 1320px;
+}
+img.g{
+    position: absolute;
+    right: 180px;
+    top: 1320px;
+}
+a.bl{
+    position: absolute;
+    background: black;
+    padding: 75px;
+    padding-left: 600px;
+    padding-right: 800px;
+    right:0px;
+    border-bottom: 1px solid #333333;
+    top: 0px;
+    left: 0px;
+}
+a.lol{
+    position: absolute;
+    top:-110px;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    margin: 0px auto;
+}
+img.top{
+    position: absolute;
+    top: -150px;
+    left: -100px;
+}
+.lol > img{
+    width: 200px;
+}
+a.left{
+    position: absolute;
+    color: white;
+    top: -35px;
+    float: left;
+    left: 149px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+}
+a.right{
+    position: absolute;
+    color: white;
+    top: -35px;
+    float: right;
+    right:134px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+}
+a.left:hover{
+    color: yellow;
+}
+a.right:hover{
+    color: yellow;
+}
+img.h{
+    position: absolute;
+    left: 0px;
+right: 0px;
+margin: 0px auto;
+margin-top:20px;
+    width: 136px;
+}
+footer > p{
+    position: relative;
+    padding-top:0px;
+    text-align: center;
+    clear:both;
+    color: black;
+    top:20px;
+}

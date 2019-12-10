@@ -4,7 +4,7 @@ This is my Final Intergrated Project about my photography website
 
 ## Synopsis
 
-![Lee Studio](background.JPG "Final Intergrated Project")
+![Lee Studio](background.jpg "Final Intergrated Project")
 
 ## Author
 
